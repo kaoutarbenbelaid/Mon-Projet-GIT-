@@ -5,7 +5,7 @@ if [ $(id -u) -eq 0 ]; then
 	read -s -p "Enter password please : " password
 	egrep "^$username" /etc/passwd >/dev/null
 	if [ $? -eq 0 ]; then
-		echo "$username exists!"
+c;v, ,f v,bnv,gh,lnlvb;,ckvnfdkjvnncnnckkkdkflfllfoornnf		echo "$username exists!"
 		exit 1
 	else
 		pass=$(perl -e 'print crypt($ARGV[0], "password")' $password)
